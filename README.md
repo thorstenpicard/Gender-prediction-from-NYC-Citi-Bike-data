@@ -1,8 +1,7 @@
 # Citi-Bike
 Repository for analysing NYC's Citi Bike system data.
 
-* The project is based on the monthly Citi Bike datasets in 2019.
+The project is based on the monthly Citi Bike datasets in 2019.
 
-File explanation:
-* _CB-2019-dataset-creation_: removes and adds features, filters data (e.g., exclude age>=100), corrects the data types, and saves each processed dataset as a .parquet file to maintain the data types. Meanwhile, it keeps track of the monthly differences in trip count between the original dataset and the filtered dataset. This script results in 13 files: 12 .parquet files representing the monthly datasets and 1 .csv file that contains aggregated statistics per month. The parquet files serve as input for the classifiers.
+The 2019 sample which is used in the 2019 analysis file could not be uploaded because of GitHubs limit of 25MB. The sample can be downloaded via WeTransfer [here](https://we.tl/t-p6H4Zva7xV).
 
